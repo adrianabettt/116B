@@ -427,7 +427,7 @@
         });
 
         document.getElementById('secao-desenhos').style.display = 'block';
-        document.getElementById('texto-comando-desenho').innerHTML = `✨ INCRÍVEL! VOCÊ DECODIFICOU AS CORES E ACHOU A PALAVRA <strong>${desafioAtual.palavra}</strong>!<br><br> AGORA, CLIQUE NO DESENHO CORRETO:`;
+        document.getElementById('texto-comando-desenho').innerHTML = `✨ INCRÍVEL! VOCÊ DECODIFICOU ACHOU A PALAVRA <strong>${desafioAtual.palavra}</strong>!<br><br> AGORA, CLIQUE NO DESENHO CORRETO:`;
       } else {
         if (nota > 0) nota--;
         mostrarAlertaPersonalizado('erro', '❌ Tente de novo!', 'Alguma cor foi traduzida para a letra errada.<br>O quadrinho incorreto foi limpo para você tentar novamente!');
